@@ -86,11 +86,35 @@ header .icons i {
     display: flex;
 }
 
-.titleandButton .title {
+.titleandButton .title .clamp{
     font-size: var(--font-medium);
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     overflow:hidden;
     margin-right: var(--padding);
+    margin-bottom: var(--padding);
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    margin: var(--padding) 0;
+}
+
+.actions button {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-small);
+}
+
+.views {
+    font-size: var(--font-small);
+    color: var(--gray-light-color);
+}
+
+.actions button i {
+    margin: 0 auto;
+    margin: calc(var(--padding) / 2);
+    font-size: 16px;
 }
