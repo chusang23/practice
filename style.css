@@ -120,10 +120,19 @@ header .icons i {
     color: var(--gray-dark-color);
 }
 
+.actions button i.active {
+    color:var(--blue-color);
+}
+
 .channel {
     display: flex;
 }
 
 .channel .metadata {
     display: flex;
+}
+
+.channel img {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
 }
