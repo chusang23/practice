@@ -136,3 +136,17 @@ header .icons i {
     width: var(--avatar-size);
     height: var(--avatar-size);
 }
+
+.channel .name {
+    font-size: var(--font-medium);
+}
+
+.channel .subscribers {
+    font-size: var(--font-small);
+    color:var(--gray-dark-color);
+}
+
+.channel .subscribe {
+    text-transform: uppercase;
+    color: var(--red-color);
+}
