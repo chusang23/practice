@@ -150,3 +150,23 @@ header .icons i {
     text-transform: uppercase;
     color: var(--red-color);
 }
+
+.upNext {
+    padding: 0 var(--spacing);
+  }
+  
+  .upNext > .title {
+    font-size: var(--font-medium);
+    color: var(--grey-dark-color);
+    margin-bottom: var(--spacing-small);
+  }
+  
+  .upNext .item {
+    display: flex;
+    margin-top: var(--spacing);
+  }
+  
+  .upNext .item .img {
+    flex-basis: 35%;
+    margin-right: var(--spacing);
+  }
