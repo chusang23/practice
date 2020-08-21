@@ -19,6 +19,11 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    list-style: none;
+}
+
+button {
+    border: none;
 }
 
 body {
@@ -43,4 +48,72 @@ header {
 .icons {
     color: var(--white-color);
     margin-right: var(--size-padding);
+}
+
+.player {
+    text-align: center;
+    background-color: var(--black-color);
+}
+
+.video {
+    width: 50%;
+    height: 50%;
+    max-width: 300px;
+}
+
+.info {
+    padding: var(--size-padding);
+}
+
+.info .metadata .hashtags {
+    font-size: var(--font-small);
+    color: var(--blue-color);
+    display: flex;
+    padding-bottom: 6px;
+}
+
+.info .metadata .hashtags li {
+    padding-right: var(--size-padding);
+}
+
+.info .metadata .titleAndButton{
+    display: flex;
+    font-size: var(--font-large);
+    padding:var(--size-padding);
+}
+
+.info .metadata .titleAndButton .title {
+    font-size: var(--font-medium);
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.info .views {
+    color: var(--gray-dark-color);
+    font-size: var(--font-small);
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    margin:var(--size-padding) 0;
+}
+
+.actions button {
+    display: flex;
+    flex-direction: column;
+    font-size:var(--font-small);
+    color: var(--gray-dark-color);
+}
+
+.actions button i {
+    margin: 0 auto;
+    margin-bottom: calc(var(--size-padding) /2 );
+    font-size:16px;
+}
+
+.actions button i.active {
+    color:var(--blue-color);
 }
