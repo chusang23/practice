@@ -20,6 +20,15 @@
     margin:0;
     box-sizing: border-box;
     list-style: none;
+    
+}
+
+button,
+button:focus {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: var(--white-color);
 }
 
 button {
@@ -28,6 +37,10 @@ button {
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+body > .info {
+    padding: var(--size-padding);
 }
 
 header {
@@ -116,4 +129,83 @@ header {
 
 .actions button i.active {
     color:var(--blue-color);
+}
+
+.channel {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--gray-dark-color);
+    border-bottom: 1px solid var(--gray-light-color);
+}
+
+.channel .metadata {
+    display: flex;
+    align-items: center;
+}
+
+.channel .metadata img {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    border-radius: 50%;
+}
+
+.channel .metadata .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.channel .metadata .info .name {
+    font-size: var(--font-medium);
+}
+
+.channel .metadata .info .subscribers {
+    font-size: var(--font-small);
+    color: var(--gray-dark-color);
+}
+
+.channel .subscribe {
+    text-transform: uppercase;
+    color: var(--red-color);
+    font-size: var(--font-medium);
+}
+
+.UpNext {
+    padding: 0 var(--size-padding);
+}
+
+.UpNext > .title {
+    font-size: var(--font-medium);
+    color: var(--gray-dark-color);
+    margin-bottom: calc(var(--size-padding) /2);
+}
+
+.UpNext .item {
+    display: flex;
+}
+
+.UpNext .item img {
+    flex: 1 1 35%;
+}
+
+.UpNext .item .info {
+    flex: 1 1 60%;
+}
+
+.UpNEx .item .MoreBtn {
+    flex: 1 1 5%;
+}
+
+.UpNext .item .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.UpNext .item .info .title {
+    font-size: var(--font-small);
+}
+
+.UpNext .item .info .name,
+.UpNext .item .info .views {
+    font-size: var(--font-micro);
+    color: var(--gray-dark-color);
 }
