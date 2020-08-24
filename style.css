@@ -181,14 +181,19 @@ header {
 
 .UpNext .item {
     display: flex;
+    margin-top: var(--size-padding);
 }
 
-.UpNext .item img {
-    flex: 1 1 35%;
+.UpNext .item .img {
+    flex: 1 1 25%;
+}
+
+.UpNext .item .img img {
+    width: 100%;
 }
 
 .UpNext .item .info {
-    flex: 1 1 60%;
+    flex: 1 1 70%;
 }
 
 .UpNEx .item .MoreBtn {
@@ -208,4 +213,19 @@ header {
 .UpNext .item .info .views {
     font-size: var(--font-micro);
     color: var(--gray-dark-color);
+}
+
+.infoAndUpNext {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .infoAndUpNext {
+        flex-direction: row;
+    }
+
+    .UpNext {
+        padding: var(--size-padding);
+    }
 }
