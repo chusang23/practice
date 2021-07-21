@@ -2,125 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-  <title>Document</title>
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+  crossorigin="anonymous"
+/>
+  <title>Nav bar</title>
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <i class="fab fa-youtube"></i>
-      <span class="title">youtube</span>
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <i class="fab fa-accusoft"></i>
+      <a href="">DreamCoding</a>
     </div>
-    <div class="icons">
-      <i class="fas fa-search"></i>
-      <i class="fas fa-ellipsis-v"></i>
-    </div>
-  </header>
-  <section class="player">
-  <video controls src="video/video.mp4"></video>
-  </section>
-  <section class="info">
-    <div class="metadata">
-      <ul class="hashtags">
-        <li>#twitch</li>
-        <li>#youtube</li>
-        <li>#Macbook</li>
-      </ul>
-      <div class="titleAndButton">
-        <span class="title">
-          클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript
-        </span>
-      </div>
-      <div class="views">
-        1M views 1 month ago
-      </div>
-    </div>
-    <div class="actions">
-      <button>
-        <i class="fas fa-thumbs-up"></i>
-        1K
-      </button>
-      <button>
-        <i class="fas fa-thumbs-down"></i>
-        0
-      </button>
-      <button>
-        <i class="fas fa-share"></i>
-        share
-      </button>
-      <button>
-        <i class="fas fa-plus"></i>
-        save
-      </button>
-      <button>
-        <i class="fas fa-flag"></i>
-        Report
-      </button>
-    </div>
-    <div class="channel">
-      <div class="metadata">
-      <img src="image/avatar.jpg" alt="">
-      <div class="infoAndUpNext">
-      <div class="info">
-        <span class="name">고차비</span>
-        <span class="subscribers">200K subscribers</span>
-      </div>
-      </div>
-      <button class="subscribe">subscribe</button>
-    </div>
-  </section>
-  <section class="UpNext">
-    <span class="title">Up next</span>
-    <ul>
-      <li class="item">
-        <img src="image/1.jpg" alt="">
-        <div class="info">
-          <span class="title">
-            【 탬탬버린／8월 1주차 하이라이트! 】 - 8월 1주차에 있었던 핫클립들을 모아놓은 주간핫클립!
-          </span>
-          <span class="name">탬탬버린</span>
-          <span class="views">170K views</span>
-        </div>
-        <button class="MoreBtn">
-          <i class="fas fa-ellipsis-v"></i>
-        </button>
-      </li>
-      <li class="item">
-        <img src="image/2.jpg" alt="">
-        <div class="info">
-          <span class="title">
-            두유 노우.. 헤징..?
-          </span>
-          <span class="name">헤징</span>
-          <span class="views">86K views</span>
-        </div>
-        <button class="MoreBtn">
-          <i class="fas fa-ellipsis-v"></i>
-        </button>
-      </li>
-      <li class="item">
-        <img src="image/3.jpg" alt="">
-        <div class="info">
-          <span class="title">
-            딸기잼이 먹고 싶어요
-          </span>
-          <span class="name">진자림</span>
-          <span class="views">120K views</span>
-        </div>
-        <button class="MoreBtn">
-          <i class="fas fa-ellipsis-v"></i>
-        </button>
-      </li>
-     </ul>
-   </section>
-  </div>
- </body>
+
+    <ul class="navbar__menu">
+      <li><a href="">Home</a></li>
+      <li><a href="">Gallery</a></li>
+      <li><a href="">Weddings</a></li>
+      <li><a href="">FAQ</a></li>
+      <li><a href="">Bookings</a></li>
+    </ul>
+
+    <ul class="navbar__links">
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-facebook"></i>
+    </ul>
+  </nav>
+</body>
 </html>
