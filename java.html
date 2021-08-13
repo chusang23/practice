@@ -10,7 +10,7 @@
 <body>
     <div class="alert-box" id="alert">
         <p id="password"></p>
-        <button onClick="알림창('none')">닫기</button>
+        <button id="close"> X </button>
     </div>
 
     <button onClick="알림창1열기('아이디를 입력하세요')">버튼1</button>
@@ -23,9 +23,9 @@
             document.getElementById('alert').style.display = 'block';
         }
 
-        function 알림창() {
+        document.getElementById('close').addEventListener('click', function(){
             document.getElementById('alert').style.display = 'none';
-        }
+        });
     </script>
 </body>
 </html>
