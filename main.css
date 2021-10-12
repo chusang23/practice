@@ -10,3 +10,15 @@
     border-radius: 5px;
     display: none;
 }
+
+.main-background {
+    background-image: url(image/original.jpeg);
+    background-size: cover;
+}
+
+.black-background {
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 5;
+    height: 100%;
+}
