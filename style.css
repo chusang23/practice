@@ -17,8 +17,15 @@ a {
 }
 
 .navbar__logo {
-    font-size: 24px;
+    display: flex;
+    font-size: 27px;
     color: white;
+}
+
+.season2 {
+    padding-left: 5px;
+    padding-top: 15px;
+    font-size: 15px;
 }
 
 .navbar__logo i {
