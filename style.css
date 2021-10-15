@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    font-family: 'Source Sans Pro';
+    font-family: 'Open Sans Pro';
+    background: #0D1015;
 }
 
 a {
@@ -99,4 +100,32 @@ a {
     .navbar__icons.active{
         display: flex;
     }
+}
+
+.loawa-sponsor {
+    margin-top: 40px;
+    margin-left: 145px;
+}
+
+.sponsor-image {
+    width: 260px;
+    height: 110px;
+    border-radius: 5px;
+}
+
+.coupon-banner {
+    color: #F8F8F8;
+    border: 1px solid #40444F;
+    width: 260px;
+    height: 220px;
+    margin-left: 145px;
+    margin-top: 20px;
+}
+
+.coupon-banner2 {
+    text-align: center;
+}
+
+.coupon-banner3 {
+    text-align: center;
 }
