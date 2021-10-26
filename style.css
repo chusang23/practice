@@ -118,7 +118,7 @@ a {
     color: #F8F8F8;
     border: 1px solid #40444F;
     width: 260px;
-    height: 220px;
+    height: 120px;
     margin-left: 145px;
     margin-top: 20px;
 }
@@ -129,4 +129,14 @@ a {
 
 .coupon-banner3 {
     text-align: center;
+}
+
+.loawa-corona {
+    border: 1px solid #40444F;
+    margin-top: 15px;
+}
+
+.corona-image {
+    width: 264px;
+    height: 95px;
 }
