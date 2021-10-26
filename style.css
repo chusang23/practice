@@ -140,3 +140,16 @@ a {
     width: 264px;
     height: 95px;
 }
+
+.loawa-utility {
+    width: 260px;
+    height: 295px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.utility-image {
+    width: 225px;
+    height: 95px;
+    border-radius: 5px;
+}
