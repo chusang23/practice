@@ -153,3 +153,19 @@ a {
     height: 95px;
     border-radius: 5px;
 }
+
+.loawa-banner {
+    width: 600px;
+    height: 3000px;
+    justify-content: space-between;
+}
+
+.banner-image1 {
+    width: 560px;
+    height: 80px;
+}
+
+.banner-image2 {
+    width: 560px;
+    height: 160px;
+}
