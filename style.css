@@ -154,18 +154,26 @@ a {
     border-radius: 5px;
 }
 
-.loawa-banner {
-    width: 600px;
-    height: 3000px;
-    justify-content: space-between;
+.loawa-center {
+    margin-left: 25px;
 }
 
-.banner-image1 {
-    width: 560px;
-    height: 80px;
+.loawa-banners {
+    border: 1px solid #40444F;
+    width: 650px;
+    height: 240px;
+    margin-left: 400px;
+    margin-top: -255px;
 }
 
-.banner-image2 {
-    width: 560px;
-    height: 160px;
+.banners-image1 {
+    width: 645px;
+    height: 100px;
+    text-align: center;
+}
+
+.banners-image2 {
+    width: 645px;
+    height: 132px;
+    text-align: center;
 }
