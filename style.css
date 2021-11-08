@@ -196,3 +196,42 @@ a {
     background: #40444F;
     color: #FFFFFF;
 }
+
+.today-time {
+    margin-left: 650px;
+    color: #FFFFFF;
+}
+
+.island1 {
+    width: 145px;
+    height: 270px;
+    margin-left: 420px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.island-img {
+    width: 177px;
+    height: 115px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.island-sal {
+    width: 177px;
+    height: 115px;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.island2 {
+    width: 145px;
+    height: 270px;
+    margin-left: 605px;
+    margin-top: -285px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+}
