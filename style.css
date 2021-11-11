@@ -195,6 +195,7 @@ a {
     border-radius: 5px;
     background: #40444F;
     color: #FFFFFF;
+    font-weight: bold;
 }
 
 .today-time {
@@ -245,3 +246,21 @@ a {
     color: #FFFFFF;
     font-weight: bold;
 }
+
+.island-time {
+    margin-left: 640px;
+    color: #FFFFFF;
+}
+
+.today-alarm {
+    width: 650px;
+    height: 20px;
+    margin-left: 400px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: #40444F;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
