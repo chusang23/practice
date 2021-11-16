@@ -118,7 +118,7 @@ a {
     color: #F8F8F8;
     border: 1px solid #40444F;
     width: 260px;
-    height: 120px;
+    height: 170px;
     margin-left: 145px;
     margin-top: 20px;
 }
@@ -129,6 +129,8 @@ a {
 
 .coupon-banner3 {
     text-align: center;
+    font-size: 14px;
+    line-height: 10px;
 }
 
 .loawa-corona {
@@ -188,7 +190,7 @@ a {
 
 .today-islands {
     width: 650px;
-    height: 20px;
+    height: 30px;
     margin-left: 400px;
     margin-top: 10px;
     text-align: center;
@@ -196,6 +198,7 @@ a {
     background: #40444F;
     color: #FFFFFF;
     font-weight: bold;
+    line-height: 30px;
 }
 
 .today-time {
@@ -254,7 +257,7 @@ a {
 
 .today-alarm {
     width: 650px;
-    height: 20px;
+    height: 30px;
     margin-left: 400px;
     margin-top: 10px;
     text-align: center;
@@ -262,10 +265,35 @@ a {
     background: #40444F;
     color: #FFFFFF;
     font-weight: bold;
+    line-height: 30px;
 }
 
 .box1 {
-    width: 100px;
-    height: 130px;
+    width: 130px;
+    height: 100px;
+    margin-left: 440px;
+    margin-top: 20px;
+    color: #FFFFFF;
 }
 
+.box-text {
+    width: 130px;
+    height: 25px;
+    background: #754604;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    line-height: 25px;
+}
+
+.alarm-box-text {
+    width: 130px;
+    height: 50px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
