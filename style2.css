@@ -20,7 +20,6 @@ body {
 
 .navbar__logo {
     font-size: 24px;
-    padding-left: 30px;
 }
 
 .navbar__logo i {
@@ -31,7 +30,6 @@ body {
     display: flex;
     list-style: none;
     padding-left: 0;
-    margin-left: 500px;
 }
 
 .navbar__menu li {
@@ -54,7 +52,16 @@ body {
     padding: 8px 12px;
 }
 
-@media screen and (max-width: 925px) {
+.navbar__toogleBtn {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    color: #d49466;
+
+}
+
+@media screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -66,9 +73,16 @@ body {
         align-items: center;
         width: 100%;
     }
-
+    
     .navbar__menu li {
         width: 100%;
         text-align: center;
+    }
+
+    .navbar__icons {
+        list-style: none;
+        color: white;
+        display: flex;
+        padding-left: 0;
     }
 }
