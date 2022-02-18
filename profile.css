@@ -1,9 +1,20 @@
+.profile-background {
+  width: 1800px;
+  height: 250px;
+  background-color: #c8daf1;
+  position: absolute;
+  z-index: 2;
+}
+
 .profile-photo {
   width: 200px;
   height: 200px;
   position: absolute;
   border-radius: 200px;
-  border: 5px solid #787878;
+  top: 130px;
+  left: 80px;
+  border: 7px solid #787878;
+  z-index: 3;
 }
 
 .profile-color {
@@ -12,7 +23,17 @@
   height: 50px;
   border-radius: 40px;
   position: relative;
-  top: 140px;
-  left: 140px;
+  top: 280px;
+  left: 220px;
   border: 5px solid #787878;
+  z-index: 4;
+}
+
+.profile-background2 {
+  background-color: #787878;
+  position: relative;
+  top: 190px;
+  width: 1800px;
+  height: 1200px;
+  z-index: 1;
 }
