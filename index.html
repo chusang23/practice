@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>Comparison operators & Boolean</h1>
-    <h2>===</h2>
-    <h3>1===1</h3>
-    <script>
-        document.write(1===1);
-    </script>
-
-    <h3>1&lt;2</h3>
-    <script>
-        document.write(1<2);
-    </script>
-</body>
+<body style="background-color:#000000; color:white;">
+    <h1><a href="index.html"></a>WEB</h1>
+    <input id="night_day" type="button" value="day" onclick="
+    if(document.querySelector('#night_day').value === 'night'){
+        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('body').style.color = 'white';
+        document.querySelector('#night_day').value = 'day';
+    } else {
+        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color = 'black';
+        document.querySelector('#night_day').value = 'night';
+    }
+    ">
+    <p>JavaScript</p>
+    </body>
 </html>
