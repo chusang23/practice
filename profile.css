@@ -8,7 +8,7 @@
   height: 250px;
   background-color: #c8daf1;
   position: absolute;
-  z-index: 2;
+  z-index: -1;
 }
 
 .profile-photo {
@@ -40,7 +40,7 @@
   top: 190px;
   width: 1800px;
   height: 1200px;
-  z-index: 1;
+  z-index: -1;
 }
 
 .profile-nickname {
@@ -63,12 +63,36 @@
   color: white;
   z-index: 4;
   width: 150px;
-  height: 40px;
-  font-size: 15px;
+  height: 50px;
+  left: 1240px;
+  bottom: 980px;
+  font-size: 16px;
   border-radius: 10px;
   position: relative;
 }
 
 .profile-edit:hover {
   cursor: pointer;
+}
+
+.profile-setting {
+  top: 500px;
+}
+
+.profile-setting {
+  width: 200px;
+  height: 250px;
+  position: relative;
+  margin-left: 90px;
+}
+.profile-menu {
+  background-color: #787878;
+  color: white;
+  z-index: 2;
+  width: 200px;
+  height: 250px;
+}
+
+.profile-menu li {
+  margin-top: 20px;
 }
