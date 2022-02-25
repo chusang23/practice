@@ -1,3 +1,8 @@
+.body {
+  width: 100%;
+  height: 100%;
+}
+
 .profile-background {
   width: 1800px;
   height: 250px;
@@ -36,4 +41,34 @@
   width: 1800px;
   height: 1200px;
   z-index: 1;
+}
+
+.profile-nickname {
+  display: flex;
+  background-color: #787878;
+  font-weight: 700;
+  color: white;
+  font-size: 30px;
+  z-index: 1;
+  width: 80px;
+  height: 20px;
+  top: 280px;
+  left: 300px;
+  position: absolute;
+}
+
+.profile-edit {
+  background-color: #2881dd;
+  border-style: none;
+  color: white;
+  z-index: 4;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.profile-edit:hover {
+  cursor: pointer;
 }
